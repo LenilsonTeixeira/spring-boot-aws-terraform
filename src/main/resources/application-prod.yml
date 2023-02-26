@@ -1,0 +1,9 @@
+server:
+  port: ${SERVER_PORT}
+spring:
+  application:
+    name: "spring-boot-terraform-aws"
+  config:
+    activate:
+      on-profile:
+        - prod
