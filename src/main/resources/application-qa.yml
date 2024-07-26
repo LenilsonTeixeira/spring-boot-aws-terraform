@@ -7,3 +7,5 @@ spring:
     activate:
       on-profile:
         - qa
+app:
+  value: "testing"

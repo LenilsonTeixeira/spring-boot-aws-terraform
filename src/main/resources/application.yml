@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: "spring-boot-terraform-aws"
+
+app:
+  value: ${APP_NAME:testing_env_var}
